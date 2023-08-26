@@ -1,0 +1,45 @@
+{
+  "id": 1234,
+  "name": "Chocolate Chip Cookies",
+  "summary": "A delicious rich cookie.",
+  "author": "Joe Smith",
+  "creationDate": "2023-08-26T00:31:49.895Z",
+  "updatedDate": "2023-08-26T00:31:99.999Z",
+  "genre": "American",
+  "tags": [
+      "dessert",
+      "treat",
+      "baking",
+      "cookies"
+  ],
+  "instruments": [
+    "mixer",
+    "bowl",
+    "baking sheets",
+    "convention oven"
+  ],
+  "ingredients": [
+      {
+          "name": "Vanilla Extract",
+          "quantity": 1,
+          "fraction": 0.5,
+          "unit": "Tbsp"
+      },
+      {
+        "name": "All Purpose Flour",
+        "quantity": 2,
+        "fraction": 0,
+        "unit": "cups"
+      }
+  ],
+  "steps": [
+    {
+      "header": "Preparing the Wet",
+      "instruction": "Mix the egg, salt and sugar until creamy"
+    },
+    {
+      "header": "Adding the Dry",
+      "instruction": "Add the flour and salt and stir until combined"
+    }
+  ]
+}
