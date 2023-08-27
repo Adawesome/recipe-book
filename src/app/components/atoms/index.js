@@ -1,3 +1,5 @@
 // alphabetical order
 import Input from "./Input/Input";
-export default { Input };
+import Select from "./Select/Select";
+
+export default { Input, Select };

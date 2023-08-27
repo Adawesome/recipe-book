@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Input from "../../atoms/Input/Input";
+import Select from "../../atoms/Select/Select";
 
 export default function InfiniteInput(props) {
 	const [inputArray, setInputArray] = useState(() => {
@@ -28,7 +29,9 @@ export default function InfiniteInput(props) {
           {inputArray.map((inp, index) => {
             return (
             <li key={index}>
-              <Input id={index} type={inp.type} value="" onChange={() => {alert("dingle berry")}} size="40"/>
+              <Input id={`name-${index}`} type="text" value="" onChange={() => {alert("dingle berry")}} size="40" labelName="Ingredient"/>
+              <Input id={`count-${index}`} type="number" value="" onChange={() => {alert("dingle berry")}} size="40" labelName="Quantity"/>
+              <Select id={`unit-${index}`} name="sel" onChange={() => {alert("choice")}} labelName="Unit"/>
             </li>)
           })}
         </ul>
